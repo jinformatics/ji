@@ -1,137 +1,286 @@
-<html>
-<head>
-<title>Jupitor Informatics PVT LTD</title>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-</head>
-<body>
-
-<div class="main">
-
-<!----- Start Header (or) Menu ------>
-<div class="header">
-	<div class="header-left">
-        <a href="http://www.freetimelearning.com" target="_blank">
-            <img src="imges/logo1.png" width="80" height="81" />
-        </a>
-    </div>
-    <div class="header-right">
-    	<ul>
-        	<li><a href="#!">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </div>
-</div>
-<!----- End Header (or) Menu ------>
-
-
-<!----- Start Slider (or) Banner ------>
-<div class="banner">
-   <div class="banner-links">
-   		
-   </div>
-</div>
-<!----- End Slider (or) Banner ------>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     
-<!----- Start Content ------>
-<div class="content">
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <style>
+    
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
 
-  <div class="content-header">Welcome To Jupitor Informatics Pvt Ltd.</div>
-  
-  <div class="content-left">
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+    </style>
+    
+    
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src ="Jupitor logo.png" height= 25 width = 25></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-lg-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+                <li class="nav-item">
+                  <a class="nav-link" href="#explore">About</a>
+                </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#adventure">Faculties</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="jumbotron jumbotron-fluid height100p banner " id="home">
+      <div class="container h100">
+        <div>
+       <div class="contentBox h100">
+         <br> <br> 
+         <h2>Jupitor Informatics Pvt Ltd.</h2>
+       </div>
+       <img src="office.jpeg" height=10% width = 100%>
+     
+       <img src="units.png" width = 100% height = 10%>
+       </div>
+    </div>
+  </div>
+</div>
+</div>
+<section class="section-1" id="explore">
+  <div class="container">
+    <div class="row">
+      <div class="offset-sm-2 col-sm-8">
+        <div class="headerText text-center" >
+          <h2>About</h2>
+          <p>Jupitor Informatics is a professional software, website development company and a E-education institute registered by MSME based in India that endeavor on highly proficient, timely delivered and cost effective software, website development services.Some of our services include System Integration & Software Development ,Management software developement, Client server application, E-commerce software development, Content management development , Web application development, E-Commerce development, Database application development.Apart from this Jupiter Informatics is one of the premier IT skill development and academics education for science , commerce and humanities .</p>
+        </div>
+       <center> <h3><b> Our Services</b> </h3>
+       </center>
+       <div class="card">
+        <img src="sarthy.jpeg" alt="Avatar" style="width:100%">
+        <div class="container">
+       <h4><b>Sarthy Consultancy</b></h4>
+       <p>Looking for a way to improve your teaching skills and take your career to the next level? Look no further than our teacher consultancy! Our team of experienced educators is here to provide you with personalized guidance and support to help you become the best teacher you can be.
+       </p>
+       </div>
+       </div>
+      <div class="card">
+        <img src="eclass.jpeg" alt="Avatar" style="width:100%">
+        <div class="container">
+       <h4><b>Jupitor E-class</b></h4>
+       <p>Whether you're struggling with a particular subject or simply looking to improve your overall performance, our coaching classes offer a range of services to meet your needs.So why wait? Sign up for our coaching class today and start on the path to success! With our expert guidance and support.
+       </p>
+       </div>
+       </div>
+       <div class="card">
+        <img src="it.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+       <h4><b>Jupitor IT solution</b></h4>
+       <p>Are you looking for an innovative IT company that can help take your business to the next level? Look no further than our company! Our team of experienced IT professionals specializes in providing customized solutions. to help businesses of all sizes achieve their goals.
+       </p>
+       </div>
+       </div>
+        
+      </div>
+    </div>
+    
+   
+    </div>
+  </div>
+</section>
+<!--Section 2 For Adventure-->
+<section class="section-2" id="adventure">
+  <div class="container ">
+    <div class="offset-sm-2 col-sm-8">
+      <div>
+        <h1>Our Faculties</h1>
+   <div class="row">
+    <div class="column">
+<figure>
+  <img src="vijay1.jpg" alt="vijay" width=100% height= 460px>
+  <figcaption><b>Mr. Vijay Sharma(Chemistry<br>)</b></figcaption>
+</figure>
+<figure>
+  <img src="deepak.jpg" alt="deepak" width=100% height= 460px>
+  <figcaption><b>Mr. Deepak kumar(Mathematics<br>)</b></figcaption>
+</figure>
+</div>
+<div class="column">
+<figure>
+  <img src="nibedito.jpeg" alt="Nibedito" width=100% height= 300x">
+  <figcaption><b>Mr.Nibedito Pani(Commerce))</b></figcaption>
+</figure>
+<figure>
+  <img src="ashish.jpg" alt="ashish" width=100% height= 305px">
+  <figcaption><b>Ashish Mishra(Humanity)</b></figcaption>
+</figure>
+<figure>
+  <img src="amit.jpeg" alt="amit" width=100% height= 309px">
+  <figcaption><b>Amit Kumar(Physics)</b></figcaption>
+</figure>
+</div>
+<div class="column">
+<figure>
+  <img src="paras.jpg" alt="paras" width=100% height= 300px">
+  <figcaption><b>Mr. Paras Jha(Social Science)</b></figcaption>
+</figure>
+<figure>
+  <img src="vivek.jpeg" alt="vivek" width=100% height= 296px">
+  <figcaption><b>Mr. Vivek Baghel(Programming Expert)</b></figcaption>
+</figure>
+<figure>
+  <img src="shubhangi.jpg" alt="shubhangi" width=100% height= 300px">
+  <figcaption><b>Shubhangi Acharya(Biology Expert)</b></figcaption>
+ </figure>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="headerText text-center">
+        <h1>Contact US</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row clearfix">
+    <div class="offset-sm-2 col-sm-8">
+      <form>
+<div class="content-left">
         <div class="clearfix"></div>
-        Jupitor Informatics is a professional software, website development company 
-	and a E-education institute registered by MSME based in India that endeavor on 
-	highly proficient, timely delivered and cost effective software, website development
-	services.Some of our services include System Integration & Software Development
-	,Management software developement, Client server application, 
-	E-commerce software development, Content management development ,
-	Web application development, E-Commerce development, Database application 
-	development.Apart from this Jupiter Informatics is one of the premier IT skill development 
-	and academics education for science , commerce and humanities .
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJ-10hCsUlDCgPlhuWo03U0J-mpOBVUht5x7niRrLN6fb4gw/viewform?embedded=true" width="100%" height="837" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
-    <div class="content-right"><img src="imges/img.jpg" width="437" height="232" /></div>
+      </form> 
+    </div>
 
-
-<div class="clearfix m30_auto"></div>
-
-	<div class="content-bottom-boxes">
-    	<img src="imges/img-2.jpg" width="300" height="200" />
-        <div class="content-bottom-bg">
-        	<div class="content-bottom-bg-header">Sarthi consultancy</div>
-            <div class="content-bottom-bg-p">
-            Looking for a way to improve your teaching skills and take 
-	    your career to the next level? Look no further than our teacher consultancy!
-            Our team of experienced educators is here to provide you with personalized 
-	    guidance and support to help you become the best teacher you can be.
-        	</div>
-        </div>
-    </div>
-    <div class="content-bottom-boxes">
-    	<img src="imges/img-3.jpg" width="300" height="200" />
-        <div class="content-bottom-bg">
-        	<div class="content-bottom-bg-header">jupitor E-class</div>
-            <div class="content-bottom-bg-p">
-            Whether you're struggling with a particular subject or simply 
-	    looking to improve your overall performance, our coaching classes 
-	    offer a range of services to meet your needs.So why wait? Sign up for 
-	    our coaching class today and start on the path to success! 
-	    With our expert guidance and support
-        	</div>
-        </div>
-    </div>
-    <div class="content-bottom-boxes">
-    	<img src="imges/img-4.jpg" width="300" height="200" />
-        <div class="content-bottom-bg">
-        	<div class="content-bottom-bg-header">Jupitor IT Solution </div>
-            <div class="content-bottom-bg-p">
-            Are you looking for an innovative IT company that can help take your 
-	    business to the next level? Look no further than our company! 
-	    Our team of experienced IT professionals specializes in providing customized solutions.
-	    to help businesses of all sizes achieve their goals.
-        	</div>
-        </div>
-    </div>
-    
+  </div>
 </div>
-<!------ End Content ------->
-<div class="clearfix"></div> 
-<!------ Start Testimonials ------->
-<div class="testimonials">
-	<div class="testimonials-h4">
-    	" Unlock Your Potential with Education and Empowering Your Future with Technology "
-    </div>
-</div>
-<!------ End Testimonials ------->
- 
-<!------ Start Footer ------->
-<div id="footer">
-	<div class="footer-parts">
-    	<div class="footer-parts-h4">Get In Touch</div>
-        <ul>
-            <li><a href="#"><i class="fa fa-phone"></i>&nbsp; +91-6265884561</a></li>
-            <li><a href="mailto:info@freetimelearning.com"><i class="fa fa-envelope"></i>&nbsp; jinformatics3gmail.com</a></li>
+</section>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="social">
+          <li><a href="https://www.facebook.com/profile.php?id=100063617243567&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://youtube.com/@jupitorinformatics9883"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="https://youtube.com/@jupitorinformatics9883"><i class="fa fa-google"></i></a></li>
         </ul>
-    </div>
-    
-    
-    </div>
-    <div class="clearfix"></div>
-    <div class="copyrights">
-    	<div class="copyrights-left">
-        &copy; 2023. All rights reserved by Jupitor Informatics Pvt Ltd.
+        <div class="copyright">
+          <p>© Copyright 2023 by Jupitor Informatics Pvt Ltd.</p>
         </div>
-        <div class="copyrights-right">
-        	Designed by Jupitor IT Solution
-        </div>
+      </div>
     </div>
-</div>
-<!------ End Footer ------->
+  </div>
+</footer>
 
-</div>
-
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  <!--For the top bar that always shown on the top , on scroll-->
+  <script type="text/javascript">
+    $(document).scroll(function(){
+      $('.navbar').toggleClass('scrolled',$(this).scrollTop() > $('.navbar').height());
+    })
+  </script>
+  </body>
 </html>
